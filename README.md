@@ -2,7 +2,7 @@
 ![Example](https://i.ibb.co/PY2r9Mg/aa.gif)
 
 ## Global info
-This app works with [openweathermap.org](https://openweathermap.org/api)
+This app works with [openweathermap.org](https://openweathermap.org/api)<br />
 You can create an API key [Here](https://home.openweathermap.org/api_keys) to use this app
 
 ## Project setup
