@@ -3,7 +3,15 @@
 
 ## Global info
 This app works with [openweathermap.org](https://openweathermap.org/api)<br />
-You can create an API key [Here](https://home.openweathermap.org/api_keys) to use this app
+You can create an API key [Here](https://home.openweathermap.org/api_keys) to use this app <br />
+
+/src/store/fetchWether.js <br />
+```js
+import axios from "axios"
+const API = '' // your API key
+
+export default {...
+```
 
 ## Project setup
 ```
