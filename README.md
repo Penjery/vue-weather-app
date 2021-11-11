@@ -1,4 +1,5 @@
-# weather
+# Weather app
+![Example](https://i.ibb.co/PY2r9Mg/aa.gif)
 
 ## Project setup
 ```
