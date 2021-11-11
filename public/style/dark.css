@@ -1,0 +1,33 @@
+body {
+    background-color: #222226;
+    color: rgb(214, 214, 214);
+}
+
+input, select, textarea{
+    color:white;
+}
+input::placeholder{
+    color: rgb(214, 214, 214);
+  }
+
+.search {
+    background-color: #626262;
+    color: white;
+}
+.gg {
+    background-color: #626262;
+}
+.search-icon {
+    filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(155deg) brightness(86%) contrast(96%);
+}
+
+.he {
+    background-color: #444446;
+}
+.main-info-card, .s-card {
+    background-color: #444446;
+}
+
+.icc, .icc-se, .icc-ss, .d-icon {
+    filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(155deg) brightness(86%) contrast(96%);
+}

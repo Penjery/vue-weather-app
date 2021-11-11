@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');    
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.dropbtn {
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content button {
+    width: 100%;
+    cursor: pointer;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+}
+
+.dropdown-content button:hover {
+    background-color: #e2e2e2;
+    border: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.gg {
+    border: none;
+    background-color: #fbfbfb;
+}
+.he {
+    height: 100%;
+    width: 100%;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 150px 0 150px;
+    height: 72px;
+    align-items: center;
+}
+
+.logo {
+
+    font-size: 36px;
+    line-height: 44px;
+    color: #77ADFF;
+}
+
+.search {
+    height: 55px;
+    width: 454px;
+    padding: 0 0 0 30px;
+
+    background: #fbfbfb;
+    border-radius: 20px;  
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));  
+}
+
+.search-input {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 85%;
+    padding: 0;
+    font-size: 24px;
+
+    background: none;
+    border: none;
+
+    outline:none;
+}
+
+.search-icon {
+    margin-top: 13px;
+    height: 25px;
+    color: #A0A0A0;
+    cursor: pointer;
+}
+
+.main {
+    margin-top: 40px;
+}
+.container {
+    padding: 0 150px 0 150px;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+}
+.main-info-card {
+    width: 790px;
+    height: 380px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 40px; 
+}
+
+.temp-m {
+    font-size: 144px;
+    line-height: 176px;
+}
+
+.temp-f {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.temp-mm {
+    display: flex;
+    justify-content: center;
+}
+
+.temp-ma, .temp-mi {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.ic {
+    margin-left: 179px;
+}
+
+.icc {
+    width: 267.21px;
+    height: 244.21px;
+}
+
+.icc-sec {
+    width: 20px;
+}
+
+.name-time {
+    text-align: center;
+    margin-top: 30px;
+}
+.h {
+    font-size: 24px;
+    line-height: 29px;
+}
+.other {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.a-info {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.what {
+    font-size: 14px;
+    line-height: 17px;
+
+    margin-left: 10px;
+}
+.res{
+    font-size: 24px;
+    line-height: 29px;
+
+    margin-left: 20px;
+}
+.meter{
+    font-size: 14px;
+    line-height: 17px;
+}
+.d-n{
+    margin-left: 100px;
+}
+.icc-ss {
+    height: 70px;
+}
+.ress {
+    font-size: 24px;
+    line-height: 29px;
+
+    margin-left: 20px;
+}
+
+.d-info {
+    margin-top: 40px;
+    display: flex;
+
+    justify-content: space-between;
+}
+.s-card {
+    width: 280px;
+    height: 202px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.d-day {
+    font-size: 22px;
+    line-height: 29px;
+
+    margin-top: 20px;
+}
+.d-date {
+    font-size: 22px;
+    line-height: 29px;
+
+    margin-bottom: 5px;
+}
+.d-icon {
+    width: 100px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.d-temp {
+    font-size: 22px;
+    line-height: 29px;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0) transparent rgb(0, 0, 0) transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
